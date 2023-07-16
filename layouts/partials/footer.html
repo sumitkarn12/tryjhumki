@@ -1,8 +1,10 @@
-</main>
-	
-<footer>
-	<p>&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</p>
+<footer class="w3-container w3-bar w3-white" style="border-top: 1px solid gray;">
+	<span class="w3-bar-item">&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</span>
+  <a href="/about" class="w3-bar-item w3-button w3-right">About us</a>
 </footer>
+
+</main>
+
 
 <script>
   if (window.netlifyIdentity) {
@@ -14,7 +16,16 @@
       }
     });
   }
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
 </script>
+
 
 </body>
 </html>

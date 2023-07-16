@@ -1,11 +1,29 @@
 {{ partial "header.html" . }}
 
-<h1>{{ .Params.title }}</h1>
+<div class="w3-container">
+    <div class="w3-row">
+        <div class="w3-col s12">
+            <img src="https://source.unsplash.com/1000x400/?earring" alt="Earring" style="min-height: 110px; width:100%; border: 1px solid gray;" class="w3-round-large" />
+        </div>
+        <div class="w3-col s6 w3-panel w3-light-grey w3-round-large">
+            <p>We are in development and will be at your service very soon.</p>
+        </div>
+        <div class="w3-col s6 w3-panel">
+            <p>Don't worry it will be affordable so you'll look beautiful. Daily 😋</p>
+        </div>
+        <div class="w3-col s12 w3-container w3-light-grey w3-round-large">
+            <p>{{ .Params.blurb }}</p>
+        </div>
+    </div>
 
-<p>{{ .Params.blurb }}</p>
+    <hr>
 
-<h2>{{ .Params.section.heading }}</h2>
+    <h1>Curated content for you 😄</h1>
 
-<p>{{ .Params.section.text }}</p>
+    {{ partial "blog-list.html" . }}
+
+    <br/>
+
+</div>
 
 {{ partial "footer.html" . }}

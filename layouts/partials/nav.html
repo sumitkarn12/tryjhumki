@@ -1,14 +1,19 @@
-<header class="site-header">
-  <nav class="site-nav">
-    <a class="logo" href="/">
-      {{ .Site.Title }}
-    </a>
-    <ul class="main-menu">
-      {{ range.Site.Menus.main }}
-      <li>
-        <a href="{{ .URL }}">{{ .Name }}</a>
-      </li>
-      {{ end }}
-    </ul>
-  </nav>
-</header>
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-animate-left" style="display: none; z-index: 2; width: 40%; min-width: 300px;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-pale-green">Close Menu</a>
+  {{ range where .Site.RegularPages "Section" "!=" "posts" }}
+    <a href="{{ .RelPermalink }}" onclick="w3_close()" class="w3-bar-item w3-button">{{ .Title }}</a>
+  {{ end }}
+  <a href="/posts" onclick="w3_close()" class="w3-bar-item w3-button">Blogs</a>
+</nav>
+
+<div class="w3-top w3-white">
+  <div class="w3-display-container" style="border-bottom: 1px solid gray; height: 68px; max-width: 800px; margin: auto;">
+    <div class="w3-button w3-display-left" onclick="w3_open()"><i class="material-icons">menu</i></div>
+    <div class="w3-display-middle">
+      <a href="/"  style="text-decoration: none;"><img src="/images/tryJhumki-logo.png" alt="tryJhumki brand log" class="w3-circle" style="width: 42px;" /> {{ .Site.Title }}</a>
+    </div>
+  </div>
+</div>
+
+<div style="height: 82px;"></div>
+
