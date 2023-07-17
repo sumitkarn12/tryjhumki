@@ -13,7 +13,7 @@
 	<meta name="description" content="{{ .Description }}"/>
 
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
-	<link rel="icon" href="https://cdn.dotpe.in/longtail/store-logo/8206403/DS1bumqT.jpeg">
+	<link rel="icon" href="/images/tryJhumki-logo.png">
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	{{ with .OutputFormats.Get "rss" -}}
@@ -24,7 +24,7 @@
 	<!--  Essential META Tags -->
 <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
 <meta property="og:type" content="article" />
-<meta property="og:image" content="{{if .Params.image}} {{ .Params.image }} {{ else }} /static/images/tryJhumki-logo.png {{ end }}">
+<meta property="og:image" content="{{if .Params.image}} {{ .Params.image }} {{ else }} /images/tryJhumki-logo.png {{ end }}">
 <meta property="og:url" content="{{ .RelPermalink }}">
 <meta name="twitter:card" content="summary_large_image">
 
