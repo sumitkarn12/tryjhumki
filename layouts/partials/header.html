@@ -24,7 +24,7 @@
 	<!--  Essential META Tags -->
 <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
 <meta property="og:type" content="article" />
-<meta property="og:image" content="{{if .Params.image}} {{ .Params.image }} {{ else }} /images/tryJhumki-logo.png {{ end }}">
+<meta property="og:image" content="{{if .Params.image}} {{ .Params.image }} {{ else }}/images/tryJhumki-logo.png{{ end }}">
 <meta property="og:url" content="{{ .RelPermalink }}">
 <meta name="twitter:card" content="summary_large_image">
 
