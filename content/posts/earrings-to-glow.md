@@ -1,8 +1,11 @@
 ---
 title: You know, earrings can help a woman to glow differently?
+categories:
+- blog
 date: 2022-07-14T10:08:37.721Z
-image: https://lh5.googleusercontent.com/xF3-1hX5AnO76t5RF6VSDjm0thIZYXtFXuNc58wTlptmwiau_QbVb4-ThwdZd2lXsO7iEBbGp4Ht1yaScxhVbXWjOkVMhpoxbisoeq4qAyVPhgokukZQx4m8GA3ztuT8xg=w1280
+image: https://i.postimg.cc/jjJPqdkP/image.jpg
 image_alt: "An image of a girl showoffing her earring"
+description: "tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud"
 ---
 Earrings are a beautiful and versatile accessory that can add a touch of glamour to any outfit. Here are a few reasons why earrings can help a woman to glow differently:
 

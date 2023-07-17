@@ -19,4 +19,16 @@
 
 </div>
 
+{{ partial "breadcrumb.html" . }}
+
+<hr>
+<h5 class="w3-container">Related articles</h5>
+{{ range .Site.Pages }}
+{{ if in .Params.categories "blog" }}
+<div class="w3-container">
+	{{ partial "blog-post-list.html" . }}
+</div>
+{{ end }}
+{{ end }}
+
 {{ partial "footer.html" . }}

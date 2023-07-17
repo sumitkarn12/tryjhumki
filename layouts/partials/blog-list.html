@@ -1,10 +1,5 @@
-{{ range where .Pages "Title" "=" "Posts" }}
-    {{ range .Pages }}
-        <div class="w3-panel w3-round-large w3-container w3-padding-16 w3-border w3-white">
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-                {{ .Date.Format "January 2, 2006" }}
-            </time>
-        </div>
-    {{ end }}
+{{ range .Site.Pages }}
+{{ if in .Params.categories "blog" }}
+{{ partial "blog-post-list.html" . }}
+{{ end }}
 {{ end }}

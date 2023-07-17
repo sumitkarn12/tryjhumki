@@ -1,7 +1,10 @@
 ---
 title: "Privacy policy"
-image: https://lh3.googleusercontent.com/sIumStEfQRS4EZ3TPM0Lh4gmdfhlaBxEfMtgWa39X3gdlRXB3xIBYMUyXoBAgTdf2E5oyjoioKYPwrSYG4PpplfMrY1hEidWf_ThgvgG5wGKhGVEx4jaV_p9iA3UqKzc2w=w1280
+categories:
+- page
+image: https://i.postimg.cc/RhKQG1HP/pexels-samson-katt-5255560.jpg
 image_alt: "A girl hiding her face"
+description: "tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud"
 ---
 
 ## Privacy Policy

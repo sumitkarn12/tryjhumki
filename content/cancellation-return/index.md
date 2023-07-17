@@ -1,7 +1,10 @@
 ---
 title: "Delivery, Cancellation and return policy"
-image: https://lh3.googleusercontent.com/VTgLOeKDFYudyQjXVCOpUSOBORyzfRDirF4wHIWVH3kpRhB2VF_dD-V2_ph8lBDKG8nzBYenjHeUPqgMHEK1X0fLFU8dbM9DGRIsLp5_cwSh1quK3_2JSTWLJlaZNc1rOA=w1280
+categories:
+- page
+image: https://i.postimg.cc/5tLRD11N/pexels-andrea-piacquadio-3755511.jpg
 image_alt: "A cute writing something on paper"
+description: "tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud"
 ---
 
 ## Delivery, Cancellation and return policy

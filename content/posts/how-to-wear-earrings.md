@@ -1,8 +1,11 @@
 ---
 title: Some tips of wearing earrings
+categories:
+- blog
 date: 2022-07-16T10:08:37.721Z
-image: https://lh4.googleusercontent.com/sRLLPXISCCX_mn9ki-HwR4w1lxwGh87L3UvujFNjQQaPLIPmo8snrp8-_hzBCCTMa8JSg3BJNcP4UoqLX-YbHkbuzk83kmOQ5fVaL_V770PqgX0QzBFmC_6ZQANauGtiFg=w1280
+image: https://i.postimg.cc/8CKyr515/tamara-bellis-Jeak-E5-SZCug-unsplash-1.jpg
 image_alt: "A girl showcasing her earring"
+description: "tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud"
 ---
 
 Here are some additional benefits of wearing earrings:

@@ -10,13 +10,32 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
+	<meta name="description" content="{{ .Description }}"/>
+
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
+	<link rel="icon" href="https://cdn.dotpe.in/longtail/store-logo/8206403/DS1bumqT.jpeg">
 	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
+
+	<!--  Essential META Tags -->
+<meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+<meta property="og:type" content="article" />
+<meta property="og:image" content="{{if .Params.image}} {{ .Params.image }} {{ else }} /static/images/tryJhumki-logo.png {{ end }}">
+<meta property="og:url" content="{{ .RelPermalink }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<!--  Non-Essential, But Recommended -->
+<meta property="og:description" content="{{ .Description }}">
+<meta property="og:site_name" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+<meta name="twitter:image:alt" content="{{ .Params.image_alt }}">
+
+<!--  Non-Essential, But Required for Analytics -->
+<!-- <meta property="fb:app_id" content="your_app_id" /> -->
+<!-- <meta name="twitter:site" content="@website-username">	 -->
 </head>
 
 <body>

@@ -1,11 +1,14 @@
 ---
 title: "About"
-image: https://lh4.googleusercontent.com/7KzQEuCG6go15Sl0tWOvFkWRV2-9ebIbZFolZOP_mKDqIOIotiXl5S8s4NcB0uCE0EPHx7UQwlBFDu-lL5j5kXeeeuoI0LL2Nm59hMTf2ewxydQf7dz958vFwMW7sjQn-A=w1280
+categories:
+- page
+image: https://i.postimg.cc/kGv9CKmG/pexels-maahid-mohamed-6864828.jpg
 image_alt: "A growing plant showing growth"
+description: tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud
 ---
 
 ## About us
-tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world earrings and making ladies beautiful feel proud in a country of a billion people.
+tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud in a country of a billion people.
 
 At tryJhumki, we believe that every woman deserves to feel beautiful and confident. That's why we offer a wide selection of earrings for women of all ages, styles and budgets. Every piece of fashion in every shape has its own story, and we are here to write beautiful and memorable one.
 
@@ -22,3 +25,4 @@ We're committed to providing our customers with the best possible shopping exper
 * Friendly customer service
 
 So what are you waiting for? Shop Earrings for Every Woman today and find the perfect pair of earrings to make you feel beautiful and confident.
+

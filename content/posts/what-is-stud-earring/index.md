@@ -1,8 +1,11 @@
 ---
 title: What is Stud Earring?
+categories:
+- blog
 date: 2023-07-16T21:02:22.260Z
-image: https://lh4.googleusercontent.com/j23bCuN1-07h9V8eYLOlNnMSn8wuFUSHpGFeIz1ZD0k6MnNQGsoaqXZpuQOwUxZFMovWVCbR88JIutupQ9M2c8xfK-6nuhFP7-R7cSYJS-Qyt6gFcXYei8TSJz5yCBYSCA=w1280
+image: https://i.postimg.cc/8cVLFQrc/pexels-dmitry-zvolskiy-1721937.jpg
 image_alt: A girl holding stud earring in her hand
+description: "tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud"
 ---
 ## Stud Earrings
 

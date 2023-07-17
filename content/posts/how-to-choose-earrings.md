@@ -1,8 +1,11 @@
 ---
 title: How to choose earrings that will help you to glow differently
+categories:
+- blog
 date: 2022-07-15T10:08:37.721Z
-image: https://lh6.googleusercontent.com/oK1GThoiDQ_Cwp-NR3adP2DmFF7wUkCmzdkjVJY7k6xFPcraVTEPqremIRl9iTy-BaBKzscV1hF8NNAx_0sPMsSA66UUCQaMz-ceh9z5oQvFDnlRwBviaKoFcdgNKSzlrQ=w1280
+image: https://i.postimg.cc/28bZ75rJ/pexels-alexander-krivitskiy-7770640.jpg
 image_alt: "A black and white picture of a smiling girl"
+description: "tryJhumki founded in 2023 in a meeting with old colleague with a deep sense of excitement about the possibilities in the world of earrings and making ladies beautiful feel proud"
 ---
 
 * Consider your face shape: The shape of your face can help you to determine what type of earrings will look best on you. For example, if you have a round face, you might want to choose earrings that are long and vertical, such as teardrop earrings or chandelier earrings. This will help to elongate your face and make it look more slender.

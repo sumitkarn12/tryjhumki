@@ -1,4 +1,5 @@
 title = "TryJhumki"
+enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
