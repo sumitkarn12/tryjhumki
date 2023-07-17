@@ -8,7 +8,7 @@ date: 2023-07-17T20:05:01.355Z
 image: https://i.postimg.cc/FHx1hZ8Q/pexels-superlens-photography-11655347.jpg
 image_alt: A pair of drop earring placed at a table
 ---
-### Introduction
+## Introduction
 
 Drop earrings are a classic and elegant piece of jewelry that can add a touch of sophistication to any outfit. They come in a variety of styles, from simple and understated to elaborate and ornate.
 
