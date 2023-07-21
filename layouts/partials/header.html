@@ -4,34 +4,43 @@
 
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
 	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
 
+	<link rel="preload" href="https://www.w3schools.com/w3css/4/w3.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="https://fonts.googleapis.com/icon?family=Material+Icons" as="style" onload="this.onload=null;this.rel='stylesheet'">
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Karma" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+	<noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	</noscript>
+	
 	<meta name="description" content="{{ .Description }}"/>
 
 	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
 	<link rel="icon" href="/images/tryJhumki-logo.png">
-	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+	<script src="https://identity.netlify.com/v1/netlify-identity-widget.js" defer></script>
 
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
 
-
-	<!--  Essential META Tags -->
 <meta property="og:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
 <meta property="og:type" content="article" />
-<meta property="og:image" content="{{if .Params.image}} {{ .Params.image }} {{ else }}/images/tryJhumki-logo.png{{ end }}">
-<meta property="og:url" content="{{ .RelPermalink }}">
-<meta name="twitter:card" content="summary_large_image">
-
-<!--  Non-Essential, But Recommended -->
+<meta property="og:image" content="{{if .Params.image}}{{ .Params.image }}{{ else }}{{ absURL "/images/tryJhumki-logo.png" }}{{ end }}">
+<meta property="og:url" content="{{ absURL .RelPermalink }}">
 <meta property="og:description" content="{{ .Description }}">
 <meta property="og:site_name" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+
 <meta name="twitter:image:alt" content="{{ .Params.image_alt }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:card" content="summary_small_image"> <!-- summary_large_image -->
+<meta name="twitter:title" content="{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}">
+<meta name="twitter:description" content="{{.Description}}">
+
+<meta name="twitter:image" content="{{if .Params.image}}{{ .Params.image }}{{ else }}{{ absURL "/images/tryJhumki-logo.png" }}{{ end }}">
 
 <!--  Non-Essential, But Required for Analytics -->
 <!-- <meta property="fb:app_id" content="your_app_id" /> -->
