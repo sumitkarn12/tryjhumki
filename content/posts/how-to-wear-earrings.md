@@ -13,15 +13,15 @@ image_alt: A girl showcasing her earring
 
 Here are some additional benefits of wearing earrings:
 
-### Earrings can boost your confidence.
+## Earrings can boost your confidence.
 
 When you feel good about the way you look, it shows. And wearing earrings that you love can help you to feel more confident and self-assured.
 
-### Earrings can make you feel more feminine.
+## Earrings can make you feel more feminine.
 
 Earrings are a classic feminine accessory and wearing them can help you to feel more feminine and graceful.
 
-### Earrings can make you look more stylish.
+## Earrings can make you look more stylish.
 
 Earrings can add a touch of glamour and sophistication to any outfit, and they can help you to look more stylish and put-together.
 

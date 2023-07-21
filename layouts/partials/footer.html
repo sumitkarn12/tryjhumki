@@ -1,5 +1,5 @@
 <footer class="w3-container w3-bar w3-white" style="border-top: 1px solid gray;">
-	<span class="w3-bar-item">&copy;{{ dateFormat "2006" now }} {{ .Site.Title }}</span>
+	<span class="w3-bar-item">&copy;{{ dateFormat "2006" now }} {{ .Site.Params.name }}</span>
   <a href="/about" class="w3-bar-item w3-button w3-right">About us</a>
 </footer>
 
@@ -26,8 +26,37 @@ function w3_close() {
   document.getElementById("mySidebar").style.display = "none";
   document.querySelectorAll(".back-panel")[0].style.display = "none";
 }
+// setTimeout(() => {
+//   document.querySelectorAll("[data-src]").forEach( a => a.setAttribute( "src", a.getAttribute("data-src") ) )
+// }, 2000)
+
 </script>
 
+<style>
+  :root{
+    --hero-img-height: 210px;
+  }
+  #TableOfContents li>a {
+    padding: 8px;
+  }
+  .hero-image {
+    height: var(--hero-img-height);
+    width:100%;
+  }
+  @keyframes placeholder {
+    0% { background-color: gray; }
+    50% { background-color: rgb(216, 215, 215); }
+    100% { background-color: gray; }
+  }
+  .hero-image-container {
+    width: 100%;
+    height: var(--hero-img-height);
+    background-color: gray;
+    animation: placeholder ease-in-out 2s infinite;
+    background-position: center;
+    background-size: cover;
+  }
+</style>
 
 </body>
 </html>
