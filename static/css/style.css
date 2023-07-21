@@ -26,3 +26,10 @@ main {
 .material-icons {
   line-height: 1.5;
 }
+
+.blog-list h1 {
+  font-size: 18px;
+}
+.blog-list h1 a {
+  text-decoration: none;
+}

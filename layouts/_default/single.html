@@ -14,13 +14,24 @@
 <div class="w3-container">
 
 {{ if .Params.image }}
-	<img src="{{ .Params.image }}" alt="{{ .Params.image_alt }}" class="w3-round-large w3-block" style="border: 1px solid grey;" />
+<div class="hero-image-container w3-round-large">
+	<img src="{{ .Params.image }}" alt="{{ .Params.image_alt }}" class="w3-round-large hero-image" style="border: 1px solid grey;" />
+</div>
 {{ end }}
 
 {{ .TableOfContents }}
 
 {{ .Content }}
 
+</div>
+
+<div class="w3-bar w3-gray">
+	{{ if .Prev }}
+	<a href="{{.Prev.Permalink}}" class="w3-bar-item w3-left w3-button"><div class="material-icons">arrow_back</div></a>
+	{{ end }}
+	{{ if .Next }}
+	<a href="{{.Next.Permalink}}" class="w3-bar-item w3-right w3-button"><div class="material-icons">arrow_forward</div></a>
+	{{ end }}
 </div>
 
 <hr>
