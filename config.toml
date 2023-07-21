@@ -1,4 +1,5 @@
 title = "tryJhumki.com - Ears to dazzle"
 enableRobotsTXT = true
 baseURL = "https://tryjhumki.com"
-
+[params]
+    name = "tryJhumki.com"
