@@ -47,14 +47,14 @@ Stud earrings are relatively low maintenance, but there are a few things you can
 
 **Can I sleep with my stud earrings on?**
 
-> Yes, you can, especially if they are small and comfortable. However, it's always best to remove all jewelry before sleep to avoid accidental tugs or pulls.
+>Yes, you can, especially if they are small and comfortable. However, it's always best to remove all jewelry before sleep to avoid accidental tugs or pulls.
 
-** How often should I clean my stud earrings? **
+**How often should I clean my stud earrings?**
 
-> Cleaning once every two weeks is generally sufficient, but it can vary depending on how often you wear them. 
+>Cleaning once every two weeks is generally sufficient, but it can vary depending on how often you wear them. 
 
-** What's the best material for stud earrings? **
+**What's the best material for stud earrings?**
 
-> Gold, silver, and surgical steel are excellent choices as they are less likely to cause allergic reactions. 
+>Gold, silver, and surgical steel are excellent choices as they are less likely to cause allergic reactions. 
 
 Stud earrings are an indispensable accessory in anyone's wardrobe. These subtle yet striking pieces of jewelry can take any outfit to the next level. So go ahead, embrace the glamour of stud earrings!
