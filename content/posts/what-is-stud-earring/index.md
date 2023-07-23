@@ -45,7 +45,7 @@ Stud earrings are relatively low maintenance, but there are a few things you can
 
 ## Frequently Asked Questions
 
-** Can I sleep with my stud earrings on? **
+**Can I sleep with my stud earrings on?**
 
 > Yes, you can, especially if they are small and comfortable. However, it's always best to remove all jewelry before sleep to avoid accidental tugs or pulls.
 
