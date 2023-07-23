@@ -9,6 +9,7 @@
 </div>
 {{ end }}
 
+{{ if ne .Title "Sitemap" }}
 <br>
 
 <div class="w3-container">
@@ -19,19 +20,8 @@
 </div>
 {{ end }}
 
-{{ .TableOfContents }}
-
 {{ .Content }}
 
-</div>
-
-<div class="w3-bar w3-gray">
-	{{ if .Prev }}
-	<a href="{{.Prev.Permalink}}" class="w3-bar-item w3-left w3-button"><div class="material-icons">arrow_back</div></a>
-	{{ end }}
-	{{ if .Next }}
-	<a href="{{.Next.Permalink}}" class="w3-bar-item w3-right w3-button"><div class="material-icons">arrow_forward</div></a>
-	{{ end }}
 </div>
 
 <hr>
@@ -42,6 +32,24 @@
         {{ partial "blog-post-list.html" . }}
     {{ end }}
 </div>
+
+{{ end }}
+
+{{ if eq .Title "Sitemap"}}
+<ul class="w3-ul">
+	<li><h1>{{.Title}}</h1></li>
+	{{ range where .Site.AllPages "Kind" "page" }}
+	{{ if ne .Title "Sitemap"}}
+		<li>
+			<a href="{{.RelPermalink}}">
+				<b>{{ .Title }}</b><br>
+				{{.Section | title }}
+			</a>
+		</li>
+	{{ end }}
+	{{ end }}
+</ul>
+{{ end }}
 
 {{ partial "footer.html" . }}
 	

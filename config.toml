@@ -1,5 +1,6 @@
 title = "tryJhumki.com - Ears to dazzle"
 enableRobotsTXT = true
 baseURL = "https://tryjhumki.com"
+paginate = 2
 [params]
     name = "tryJhumki.com"

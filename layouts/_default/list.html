@@ -1,11 +1,29 @@
 {{ partial "header.html" . }}
+
 <div class="w3-container">
     <h1>{{ .Title }}</h1>
-    {{ .Content }}
-    {{ range .Site.Pages }}
-    {{ if in .Params.categories "blog" }}
-    {{ partial "blog-post-list.html" . }}
+    {{ range where (.Paginator 10).Pages "Params.categories" "intersect" (slice "blog") }}
+        {{ partial "blog-post-list.html" . }}
     {{ end }}
-    {{ end }}
+        <div class="w3-bar w3-center">
+            <a href="{{ $.Paginator.First.URL }}" class="w3-button w3-round">&laquo;</a>
+            {{ $current_page_number := $.Paginator.PageNumber }}
+            {{ $slot := 4 }}
+            {{ $start := sub $current_page_number $slot }}
+            {{ $end := $.Paginator.TotalPages }}
+            {{ range seq $start (add $current_page_number $slot) }}
+            {{ if ge . 1 }}
+            {{ if le . $.Paginator.TotalPages }}
+            {{ if eq . $.Paginator.PageNumber }}
+            <a href="{{(index $.Paginator.Pagers (sub . 1)).URL}}" class="w3-button w3-round w3-light-grey">{{(index $.Paginator.Pagers  (sub . 1)).PageNumber}}</a>
+            {{ else }}
+            <a href="{{(index $.Paginator.Pagers (sub . 1)).URL}}" class="w3-button w3-round">{{(index $.Paginator.Pagers  (sub . 1)).PageNumber}}</a>
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            {{ end }}
+            <a href="{{ $.Paginator.Last.URL }}" class="w3-button w3-round">&raquo;</a>
+        </div>
 </div>
+
 {{ partial "footer.html" . }}
