@@ -4,6 +4,7 @@ html,body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;  
 }
 
 main {
@@ -32,4 +33,51 @@ main {
 }
 .blog-list h1 a {
   text-decoration: none;
+}
+
+ul.w3-breadcrumb {
+  padding: 4px 8px;
+  list-style: none;
+  background-color: #eee;
+  margin: 0;
+}
+ul.w3-breadcrumb li {
+  display: inline;
+  font-size: 10px;
+}
+ul.w3-breadcrumb li+li:before {
+  padding: 4px;
+  color: black;
+  content: "/\00a0";
+}
+ul.w3-breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+ul.w3-breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+ul.w3-breadcrumb .w3-active a {
+  color: #000;
+}
+
+.top {
+  --offset: 50px;
+  
+  position: sticky;
+  bottom: 10px;
+  margin-right: 10px;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+  
+  /* visual styling */
+  text-decoration: none;
+  padding: 4px;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 8px;
+  background: #000;
+  border-radius: 100px;
+  white-space: nowrap;
 }
