@@ -81,3 +81,17 @@ ul.w3-breadcrumb .w3-active a {
   border-radius: 100px;
   white-space: nowrap;
 }
+
+footer.footer {
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
+  position: fixed;
+  bottom: 0;
+}
+.footer-margin {
+  height: 54px;
+}
