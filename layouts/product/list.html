@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+<h1>{{ .Title }}</h1>
+
+<nav>
+	<ul class="w3-breadcrumb">
+	{{ range .Ancestors.Reverse }}
+		<li class="w3-bar-item">
+			<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+		</li>
+	{{ end }}
+		<li class="w3-active">
+			<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+		</li>
+	</ul>
+</nav>
+
+<div class="products">
+{{ range .Site.Data.tshirts }}
+	<div class="product-card">
+		<div class="product-image">
+			<img src="{{ .image_url }}" alt="{{ .title }}">
+		</div>
+		<div class="product-details">
+			<div class="product-title">{{ .title }}</div>
+			<div class="product-subdetails">
+				<div class="product-price">₹ {{ .price }}</div>
+				<div class="product-color">{{ .color }}</div>
+				<div class="product-category">{{ .type }}</div>
+			</div>
+			<!-- <p class="product-description">{{ .description | markdownify }}</p> -->
+			<div class="buttons">
+				<button class="button add-to-cart">Click to buy at ₹ {{ .sale_price }} only</button>
+			</div>
+		</div>
+	</div>
+{{ end }}
+</div>
+
+
+
+
+
+{{ partial "footer.html" . }}
